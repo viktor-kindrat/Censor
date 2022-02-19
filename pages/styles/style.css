@@ -64,6 +64,15 @@
     text-align: right;
 }
 
+.main__headline {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 40px;
+    color: #141414;
+}
+
 .main__img {
     height: min-content;
     width: 40%;
