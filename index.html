@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цензор</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="header">
+            <nav class="nav">
+                <ul class="nav nav__ul">
+                    <li class="nav__item"><button class="nav__btn" id="nav-btn_about">Про проєкт</button></li>
+                    <li class="nav__item"><button class="nav__btn" id="nav-btn_how-use">Як користуватись</button></li>
+                    <li class="nav__item"><button class="nav__btn" id="nav-btn_contact">Контактна інформація</button></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <div class="box">
+                <h1 class="headline">Список заборонених слів:</h1>
+                <p class="words" id="mas"></p>
+                <div class="addRow" id="addWordGroup">
+                    <input type="text" class="inp" id="forbid" placeholder="Введи заборонене слово">
+                    <button class="main__add-word" id="addWord"><img src="./media/plus.svg" alt="+"></button>
+                    <button class="zenzorBtn" id="cenzor"><img src="./media/cenzor.svg" alt="c"></button>
+                </div>
+                <textarea id="area" class="text" placeholder="Введи тут текст який хочеш цензурувати..."></textarea>
+            </div>
+        </main>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
