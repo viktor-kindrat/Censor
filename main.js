@@ -36,3 +36,15 @@ cenzor.onclick = function() {
     let str = infoArr.join(' ');
     area.value = str;
 }
+
+$('#nav-btn_about').click(() => {
+    window.location.href = "./pages/about.html";
+})
+
+$('#nav-btn_how-use').click(() => {
+    window.location.href = "./pages/howUse.html";
+})
+
+$('#nav-btn_contact').click(() => {
+    window.location.href = "./pages/contact.html";
+})
