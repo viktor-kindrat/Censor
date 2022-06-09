@@ -1,4 +1,4 @@
-# Cenzor project
+# Censor project
 Online text cenzor project. Input your word, paste your text, click the button and watch the magic ✨
 ---
 ### Features:
